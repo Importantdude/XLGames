@@ -50,19 +50,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Shit\Desktop\try\app\Helper" />
-      <recent name="C:\Users\Shit\Desktop\try\app\Model" />
-      <recent name="C:\Users\Shit\Desktop\try\app" />
-      <recent name="C:\Users\Shit\Desktop\try\app\pub" />
-      <recent name="C:\Users\Shit\Desktop\try" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shit\Desktop\try" />
       <recent name="C:\Users\Shit\Desktop\try\app\Model" />
       <recent name="C:\Users\Shit\Desktop\try\app\pub\css" />
       <recent name="C:\Users\Shit\Desktop\try\app\pub\js" />
       <recent name="C:\Users\Shit\Desktop\try\Controllers\database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shit\Desktop\try\app\Controllers" />
+      <recent name="C:\Users\Shit\Desktop\try\app\Helper" />
+      <recent name="C:\Users\Shit\Desktop\try\app\Model" />
+      <recent name="C:\Users\Shit\Desktop\try\app" />
+      <recent name="C:\Users\Shit\Desktop\try\app\pub" />
     </key>
   </component>
   <component name="RunManager">
@@ -95,7 +95,7 @@
       <workItem from="1585053924847" duration="12858000" />
       <workItem from="1585144800745" duration="1011000" />
       <workItem from="1585149648754" duration="29124000" />
-      <workItem from="1585652576815" duration="611000" />
+      <workItem from="1585652576815" duration="777000" />
     </task>
     <servers />
   </component>

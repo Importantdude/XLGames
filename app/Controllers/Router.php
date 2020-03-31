@@ -1,8 +1,6 @@
 <?php
 
-namespace Helper;
-
-use Controllers\CategoryBuilder;
+namespace Controllers;
 
 class Router extends Request
 {

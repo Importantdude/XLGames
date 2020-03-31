@@ -2,7 +2,7 @@
 require 'app/template/head.php';
 
 use Helper\Request;
-use Helper\Router;
+use Controllers\Router;
 
 ?>
 
