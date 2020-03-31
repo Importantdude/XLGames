@@ -1,0 +1,17 @@
+<?php use Model\Product;
+
+$prodCat = new Product();
+$categoryList = $prodCat->getProductType(); ?>
+<div class="catBlock">
+    <?php foreach ($categoryList as $attr): ?>
+
+        <div class="catSection">
+            <a href="category?cat<?= $attr['id'] ?>"><h1><?= $attr['Type'] ?></h1></a>
+        </div>
+
+    <?php endforeach; ?>
+
+    <div class="catSection">
+        <a href="category?"><h1>Display All</h1></a>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<?php
+
+use Model\Product;
+
+$item = new Product;
+
+$product = $item->getProduct();
+
+?>
+<form method="post" action="delete">
+    <input type='submit' id="deleteButton" value='Delete' name='but_delete'>
+    <div class="displayProduct">
+        <div class="productHome">
+            <?php
+            foreach ($product as $row) : ?>
+                <div class="productBox">
+                    <div class="check-box">
+                        <input type='checkbox' name='delete[]' value='<?= $row['id'] ?>'>
+                    </div>
+                    <?php
+                    echo $row['SKU'] . '</br>';
+                    echo $row['Price'] . '</br>';
+                    echo $row['Name'] . '</br>';
+                    echo $row['Value'] . '</br></br>'; ?>
+                </div>
+            <?php endforeach; ?>
+        </div>
+        <?php require 'app/template/partial/about.phtml'; ?>
+    </div>
+
+</form>
