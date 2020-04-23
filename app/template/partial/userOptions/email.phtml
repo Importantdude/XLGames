@@ -1,0 +1,21 @@
+<form action="newEmail" method="post">
+    <?php
+
+
+    if ($_COOKIE['root']) {
+        $email = substr($_COOKIE['root'], 13, -2);
+    } else {
+        $email = substr($_COOKIE['user'], 13, -2);
+    }
+    ?>
+
+
+    <div>
+        <div class="changeEmail"> New Email
+            <input type="text" name="newEmail" value="<?= $email ?>">
+            <br> <br> <br>
+            <input type="submit" class="newEmail" value="new Email" name="submit" class="button">
+            <a href="" class="Close">Close</a>
+        </div>
+    </div>
+</form>

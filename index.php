@@ -1,14 +1,12 @@
 <?php
+
 require 'app/template/head.php';
 
 use Helper\Request;
 use Controllers\Router;
 
-?>
-
-<div class="bodyHome">
-    <?php require 'app/template/partial/categoryBlock.phtml';
-    require 'app/template/partial/slider.phtml'; ?>
-</div>
-
-<?php Router::route(Request::uriController(), Request::uriAction()); ?>
+if ($_SERVER['REQUEST_URI'] == '/') {
+    Router::route($_SERVER['REQUEST_URI'], Request::uriAction());
+} else {
+    Router::route(Request::uriController(), Request::uriAction());
+}

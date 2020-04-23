@@ -8,13 +8,14 @@ $item = new Product;
 $product = $item->categoryProduct(Request::uriAction());
 
 ?>
-<form method="post" action="delete?<?=Request::uriAction()?>">
+<form method="post" action="delete?<?= Request::uriAction() ?>" xmlns="http://www.w3.org/1999/html">
     <input type='submit' id="deleteButton" value='Delete' name='but_delete'>
     <div class="displayProduct">
         <div class="productHome">
             <?php
             foreach ($product as $row) : ?>
                 <div class="productBox">
+
                     <div class="check-box">
                         <input type='checkbox' name='delete[]' value='<?= $row['id'] ?>'>
                     </div>
@@ -24,6 +25,7 @@ $product = $item->categoryProduct(Request::uriAction());
                     echo $row['Name'] . '</br>';
                     echo $row['Value'] . '</br></br>'; ?>
                 </div>
+
             <?php endforeach; ?>
         </div>
         <?php require 'app/template/partial/about.phtml'; ?>

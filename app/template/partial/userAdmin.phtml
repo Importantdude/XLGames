@@ -1,0 +1,18 @@
+<div class="leftMenu">
+    <div class="menuOption">
+        <?php require 'app/template/partial/about.phtml'; ?>
+        <input type="submit" class="newPassword" value="Change password">
+        <?php if (isset($_COOKIE['user'])) { ?>
+            <input type="submit" class="becomeAdmin" value="Become Admin">
+        <?php } ?>
+        <input type="submit" class="newEmail" value="Change Email">
+        <input type="submit" class="newUserAttr" value="Add user attribute">
+
+        <?php
+        require 'userOptions/password.phtml';
+        require 'userOptions/email.phtml';
+        require 'userOptions/userAttributes.phtml';
+        require 'userOptions/beAdmin.phtml'; ?>
+    </div>
+
+</div>

@@ -12,6 +12,7 @@ $product = $item->getProduct();
     <div class="displayProduct">
         <div class="productHome">
             <?php
+
             foreach ($product as $row) : ?>
                 <div class="productBox">
                     <div class="check-box">
@@ -24,6 +25,7 @@ $product = $item->getProduct();
                     echo $row['Value'] . '</br></br>'; ?>
                 </div>
             <?php endforeach; ?>
+
         </div>
         <?php require 'app/template/partial/about.phtml'; ?>
     </div>

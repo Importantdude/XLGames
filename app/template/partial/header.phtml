@@ -1,15 +1,58 @@
 <div class="header">
-    <div class="headerTitle">
-        <a href="/"><h1>XLgames</h1></a>
-    </div>
-    <div class="navMenu">
-        <ul>
-            <li>Home</li>
-            <a href="add?">
-                <li>Add</li>
-            </a>
-                <li>Delete</li>
-            <li>PDP</li>
-        </ul>
-    </div>
+    <?php if (isset($_COOKIE['user'])) { ?>
+        <div class="headerTitle">
+            <a href="category?"><h1>XLgames</h1></a>
+        </div>
+        <div class="navMenu">
+            <ul>
+                <a href="userAdmin?">
+                    <li>My Account</li>
+                </a>
+                <a href="category?">
+                    <li>Home</li>
+                </a>
+
+                <a href="logOut?">
+                    <li>Log Out</li>
+                </a>
+
+            </ul>
+        </div>
+    <?php } elseif (isset($_COOKIE['root'])) { ?>
+        <div class="headerTitle">
+            <a href="category?"><h1>XLgames</h1></a>
+        </div>
+        <div class="navMenu">
+            <ul>
+                <a href="userAdmin?">
+                    <li>My Account</li>
+                </a>
+                <a href="add?">
+                    <li>Add</li>
+                </a>
+
+                <a href="logOut?">
+                    <li>Log Out</li>
+                </a>
+
+            </ul>
+        </div>
+    <?php } else { ?>
+        <div class="headerTitle">
+            <h1>XLgames</h1>
+        </div>
+        <div class="navMenu">
+            <ul>
+                <a href="category?">
+                    <li>Guest</li>
+                </a>
+                <a href="/">
+                    <li>Login</li>
+                </a>
+            </ul>
+        </div>
+    <?php } ?>
+
 </div>
+
+

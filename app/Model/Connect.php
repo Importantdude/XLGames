@@ -25,6 +25,8 @@ class Connect
         $this->password = "";
         $this->dbname = "mytodo";
 
+
+
         return new PDO("mysql:dbname=" . $this->dbname . ";host=" . $this->servername, $this->username, $this->password);
 
     }

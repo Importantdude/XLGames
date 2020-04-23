@@ -7,6 +7,475 @@ a {
     text-decoration: none;
 }
 
+
+/*
+Authentication Background
+*/
+
+.auth {
+    height: 100%;
+    background: url("../media/index.png") no-repeat center;
+    background-size: cover;
+}
+
+.center {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.d1 {
+    margin: 6% 0 0 0;
+    position: absolute;
+    width: 33%;
+    height: 74%;
+    background-color: white;
+    transition: 1s;
+    left: 17%;
+}
+
+.d2 {
+    margin: 11% 0 0;
+    position: absolute;
+    right: 17%;
+    width: 33%;
+}
+
+/*
+* Sign Up block
+*/
+
+
+.sign {
+    display: flex;
+    width: 100%;
+}
+
+.signUp {
+    width: 100%;
+}
+
+/*
+LoginBlock
+*/
+
+
+.sign form {
+    width: 100%;
+    display: flex;
+}
+
+.log form {
+    width: 100%;
+}
+
+
+.SignUpBlock {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#SignupName {
+    border: none;
+}
+
+.rightSide {
+    width: 50%;
+
+}
+
+.log {
+    display: flex;
+    transition: 1s;
+    opacity: 0;
+}
+
+.leftOption {
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+#SignupName {
+    border: none;
+}
+
+.leftContent {
+    margin: 10% 22% 11% 22%;
+    font-size: 28px;
+    font-family: "SourceSansPro";
+    color: rgb(62, 73, 94);
+    line-height: 1.25;
+    transition: 1s;
+    opacity: 100%
+}
+
+.titleLeft {
+    display: flex;
+}
+
+.titleLeft p {
+    margin-right: 44%;
+}
+
+.titleLeft img {
+    width: 15%;
+    height: 15%;
+    margin-top: 13%;
+}
+
+.leftContent hr {
+    margin-right: 90%;
+    width: 10%;
+    border-bottom: 2px solid #49abfe;
+}
+
+/*
+* Sign UP input
+*/
+
+#Name {
+    border: none;
+}
+
+.nameInput {
+    display: flex;
+}
+
+.nameInput img {
+    margin-top: 5%;
+    width: 10%;
+    height: 10%;
+}
+
+.inputSize {
+    width: 90%;
+}
+
+.leftName {
+    border: none;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+.leftName {
+    width: 100%;
+    border-bottom: 2px solid #cbd2df;
+}
+
+.emailInput {
+    display: flex;
+}
+
+.emailInput img {
+    margin-top: 5%;
+    width: 10%;
+    height: 10%;
+}
+
+.leftEmail {
+    border: none;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+.leftEmail {
+    width: 100%;
+    border-bottom: 2px solid #cbd2df;
+}
+
+
+.inputPass {
+    display: flex;
+}
+
+.inputPass img {
+    margin-top: 5%;
+    width: 10%;
+    height: 10%;
+    border: none;
+}
+
+.leftPassword {
+    border: none;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+.leftPassword {
+    width: 100%;
+}
+
+
+.rightOption {
+    width: 75%;
+    color: white;
+
+}
+
+.rightContent {
+    margin: 0 10% 0 10%;
+    line-height: 1.5;
+}
+
+.rightContent .p {
+    font-size: 28px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+}
+
+.rightunderLine {
+    width: 10%;
+    margin: 0 95% 0 0;
+    border-bottom: 2px solid #49abfe;
+}
+
+.rightContent .loginDescription {
+    margin-bottom: 15%;
+    line-height: 1.5;
+
+}
+
+/*
+LoginBlock left side
+*/
+
+.SignUpOption {
+    width: 75%;
+    color: white;
+    opacity: 0;
+}
+
+#SignupName {
+    border: none;
+}
+
+.SignUpDescr {
+    margin: 0 10% 0 10%;
+}
+
+.SignUpDescr .p {
+    font-size: 28px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+}
+
+.SignUpDescr .underLine {
+    width: 10%;
+    margin: 0 95% 0 0;
+    border-bottom: 2px solid #49abfe;
+}
+
+.SignUpDescr .loginDescription {
+    margin-bottom: 15%;
+    line-height: 1.5;
+
+}
+
+#enterSignUp {
+
+    padding: 16px 32px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #49abfe;
+}
+
+#enterSignUp {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+#enterSignUp:hover {
+    background-color: #243043;
+    color: white;
+}
+
+
+#enterLogin {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #49abfe;
+}
+
+#enterLogin {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+#enterLogin:hover {
+    background-color: #243043;
+    color: white;
+}
+
+
+/*
+LoginBlock rightSide
+*/
+
+
+/*
+* Log In title && Logo
+*/
+.LogInSide {
+    margin: 6% 17% 3% 0;
+    width: 33%;
+    background-color: white;
+
+}
+
+.loginContent {
+    margin: 15% 22% 15% 22%;
+    font-size: 28px;
+    font-family: "SourceSansPro";
+    color: rgb(62, 73, 94);
+    line-height: 1.25;
+
+}
+
+.loginTitle {
+    display: flex;
+    width: 100%;
+}
+
+.loginTitle p {
+    margin-right: 53%;
+}
+
+.loginTitle .logo {
+    width: 15%;
+    height: 15%;
+    margin-top: 13%;
+}
+
+.loginContent hr {
+    margin: 0 90% 0 0;
+    width: 10%;
+    border-bottom: 2px solid #49abfe;
+}
+
+/*
+* Ateric symbol
+*/
+
+/*
+* Log In email
+*/
+
+.rightEmail {
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+.rightEmail hr {
+    width: 100%;
+    border-bottom: 2px solid #cbd2df;
+}
+
+.mailInput {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #cbd2df;
+}
+
+.mailInput .inputSize {
+    height: 20%;
+}
+
+
+.mailInput .mail {
+    margin-top: 5%;
+    width: 10%;
+    height: 10%;
+}
+
+/*
+* Log In password
+*/
+
+
+.rightPassword {
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+
+.inputPass {
+    display: flex;
+    margin-bottom: 5%;
+    width: 100%;
+    border-bottom: 2px solid #cbd2df;
+}
+
+
+.inputPass .lock {
+    margin-top: 5%;
+    width: 10%;
+    height: 10%;
+}
+
+#LogInPassword {
+    border: none;
+}
+
+#LogInEmail {
+    border: none;
+}
+
+.inputSize {
+    margin-top: 10%;
+}
+
+.logInButtons {
+    margin-top: 13%;
+    display: flex;
+}
+
+/*
+* Log In Button
+*/
+.logInButtons {
+    display: flex;
+}
+
+.logInButtons a {
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(132, 149, 183);
+    line-height: 2.813;
+    margin: 1% 0 0 30%;
+}
+
+#signIN {
+    background-color: #4CAF50;
+    border: none;
+    color: darkorange;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#signIN {
+    background-color: orange;
+    color: white;
+    border: 2px solid #49abfe;
+}
+
+#signIN:hover {
+    background-color: white;
+    color: black;
+}
+
+
 /*
 HEADER
 */
@@ -18,7 +487,7 @@ HEADER
 }
 
 .headerTitle {
-    flex-basis: 75%;
+    flex-basis: 65%;
 }
 
 /*
@@ -27,6 +496,7 @@ HEADER NAVIGATION MENU
 .navMenu {
     display: flex;
     align-self: flex-end;
+    flex-basis: 35%;
 }
 
 ul {
@@ -72,7 +542,6 @@ CATEGORY BLOCK
 }
 
 /*Slider*/
-
 
 .sliderHome {
     flex-basis: 50%;
@@ -174,32 +643,295 @@ PRODUCT LIST PAGE
     height: max-content;
 }
 
-@media only screen and (max-width: 1440px) {
-
-    .productBox {
-        padding: 2%;
-        border-style: solid;
-        max-height: 100%;
-        width: 20%;
-        margin: 4%;
-        background-color: red;
-    }
-
-}
-
-@media only screen and (min-width: 1440px) {
-
-    .productBox {
-        padding: 2%;
-        border-style: solid;
-        max-height: 100%;
-        width: 13%;
-        margin: 4%;
-        background-color: green;
-    }
-
-}
 
 .itemType {
     display: none;
 }
+
+
+#enterSignUp2 {
+    display: none;
+}
+
+@media only screen and (min-width: 2559px) {
+    .d1 {
+        margin: 5% 0 0 0;
+        position: absolute;
+        width: 33%;
+        height: 76%;
+        background-color: white;
+        transition: 1s;
+        left: 17%;
+    }
+
+    .leftContent p {
+        font-size: 40px;
+    }
+
+    .leftContent input {
+        font-size: 40px;
+    }
+
+    .rightOption {
+        font-size: 40px;
+    }
+
+    #enterLogin {
+        font-size: 40px;
+    }
+
+    .loginContent {
+        font-size: 40px;
+    }
+
+    .loginContent input {
+        font-size: 40px;
+    }
+
+    .loginContent a {
+        font-size: 40px;
+    }
+
+    .SignUpDescr {
+        font-size: 40px;
+    }
+
+    #enterSignUp {
+        font-size: 40px;
+    }
+
+    .titleLeft p {
+        margin-right: 56%;
+    }
+
+    .loginTitle p {
+        margin-right: 62%;
+    }
+
+    .titleLeft img {
+        width: 15%;
+        height: 15%;
+        margin-top: 8%;
+    }
+
+    #signIN {
+        font-size: 28px;
+    }
+
+    .loginContent a {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+    .d1 {
+        margin: 4% 0 0 0;
+        position: absolute;
+        width: 33%;
+        height: 80%;
+        background-color: white;
+        transition: 1s;
+        left: 17%;
+    }
+
+    .titleLeft img {
+        width: 15%;
+        height: 15%;
+        margin-top: 4%;
+    }
+
+    .loginTitle .logo {
+        width: 15%;
+        height: 15%;
+        margin-top: 4%;
+    }
+
+    .loginTitle p {
+        margin-right: 67%;
+    }
+
+    .titleLeft p {
+        margin-right: 62%;
+    }
+
+    .leftContent p {
+        font-size: 18px;
+    }
+
+    .leftContent input {
+        font-size: 18px;
+    }
+
+    .rightOption {
+        font-size: 18px;
+    }
+
+    #enterLogin {
+        font-size: 18px;
+    }
+
+    .loginContent {
+        font-size: 18px;
+    }
+
+    .loginContent input {
+        font-size: 18px;
+    }
+
+    .loginContent a {
+        font-size: 18px;
+    }
+
+    .SignUpDescr {
+        font-size: 18px;
+    }
+
+    #enterSignUp {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    .d1 {
+        margin: 6% 0 0 0;
+        position: absolute;
+        width: 33%;
+        height: 74%;
+        background-color: white;
+        transition: 1s;
+        left: 17%;
+    }
+
+    .rightDescription {
+        margin: 10% 0 10% 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .leftContent {
+        margin: 10% 22% 11% 22%;
+        font-size: 28px;
+        font-family: "SourceSansPro";
+        color: rgb(62, 73, 94);
+        line-height: 1.25;
+        transition: 1s;
+        opacity: 100%;
+    }
+
+    .titleLeft p {
+        margin: 12% 44% 0 0;
+        font-size: 14px;
+    }
+
+    .loginTitle p {
+        margin: 8% 45% 0 0;
+    }
+
+    .leftContent p {
+        font-size: 14px;
+    }
+
+    .leftContent input {
+        font-size: 14px;
+    }
+
+    .rightOption {
+        font-size: 14px;
+    }
+
+    #enterLogin {
+        font-size: 14px;
+    }
+
+    .loginContent {
+        font-size: 14px;
+    }
+
+    .loginContent input {
+        font-size: 14px;
+    }
+
+    .loginContent a {
+        font-size: 14px;
+    }
+
+    .SignUpDescr {
+        font-size: 14px;
+    }
+
+    #enterSignUp {
+        font-size: 14px;
+    }
+
+    .rightDescription {
+        margin: 0 0 15% 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .d2 {
+        margin: 17% 0 0;
+        position: absolute;
+        right: 17%;
+        width: 33%;
+    }
+
+    .d1 {
+        margin: 14% 0 0 0;
+        position: absolute;
+        width: 33%;
+        height: 57%;
+        background-color: white;
+        transition: 1s;
+        left: 17%;
+    }
+
+    .loginContent {
+        font-size: 21px;
+    }
+
+    .leftContent {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 424px) and (max-width: 767px) {
+    .auth {
+        height: 55%;
+        background: url(../media/index.png) no-repeat center;
+        background-size: cover;
+    }
+   }
+/* .d1 {
+        margin: 25% 0 0 0;
+        position: absolute;
+        width: 33%;
+        height: 56%;
+        background-color: white;
+        transition: 1s;
+        left: 17%;
+    }
+
+    .sign form {
+        width: 100%;
+        display: flex;
+        margin-top: 42%;
+    }
+
+    .rightOption {
+        margin: 40% 9% 0;
+    }
+
+    .SignUpOption {
+        margin: 40% 0 9%;
+    }
+
+    .d2 {
+        margin: 30% 0 0;
+    }
+
+    .log {
+        margin-top: 32%;
+    }
+*/
